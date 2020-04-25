@@ -12,4 +12,4 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default install
 
-export { default as Button } from './components/Button'
+export { default as Button } from './components/pcButton'
