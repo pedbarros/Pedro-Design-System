@@ -1,4 +1,4 @@
-# Pedro Design System
+# Pedro Design System (Beta)
 
 Documentation for **Pedro** - Design System. Is included:
 
