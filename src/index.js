@@ -1,4 +1,3 @@
-// import "@/assets/scss/global.scss";
 import * as hsComponents from './components';
 
 const install = (Vue) => {
