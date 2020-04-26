@@ -1,6 +1,6 @@
 {
   "name": "pcds",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Pedro Design System",
   "main": "dist/pedro-design-system.common.js",
   "unpkg": "dist/pedro-design-system.umd.min.js",
