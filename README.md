@@ -11,8 +11,8 @@ Documentation for **Pedro** - Design System. Is included:
 
 ## [All Components](#access)
 
-- Production: (LINK)
-- Staging: (LINK)
+- Production: (https://pedrods.netlify.app/)
+- Staging: (https://pedrodsbeta.netlify.app/)
 
 
 ## [Setup](#setup)

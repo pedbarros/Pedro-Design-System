@@ -12,4 +12,5 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default install
 
-export { default as Button } from './components/pcButton'
+export { default as Button } from './components/pcButton';
+export { default as Badge } from './pcBadge';
