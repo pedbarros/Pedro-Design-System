@@ -16,24 +16,25 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .bagde {
   text-align: center;
-  padding: 5px;
+  padding: 2px;
   width: 80px;
   border-radius: 4px;
   color: white;
 }
 
 .badge-primary {
-  background: #2196f3;
+  background: $primary;
 }
 .badge-secondary {
-  color: #000;
-  background: #FFFAF0;
+  color: $primary;
+  background: $secondary;
 }
 
 .badge-success {
-  background: #4B0082;
+  color: $white;
+  background: $info;
 }
 </style>

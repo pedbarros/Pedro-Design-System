@@ -12,6 +12,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default install
 
-export { default as Button } from './components/pcButton';
+export { default as Button } from './pcButton';
 export { default as Badge } from './pcBadge';
 export { default as Alert } from './pcAlert';
+export { default as Radio } from './pcRadio';
