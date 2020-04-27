@@ -1,6 +1,12 @@
 <template>
-  <div v-if="show" :class="`alert alert-${variant}`">
-    <span class="close" @click="show = false">x</span>
+  <div
+    v-if="show"
+    :class="`alert alert-${variant}`"
+  >
+    <span
+      class="close"
+      @click="show = false"
+    >x</span>
     <slot />
   </div>
 </template>
@@ -21,7 +27,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .alert {
   display: flex;
   align-items: center;
@@ -33,6 +39,20 @@ export default {
   height: 40px;
   border-radius: 4px;
   color: white;
+
+  &-primary {
+    background: $primary;
+  }
+  &-secondary {
+    color: $primary;
+    border-left-color: $primary;
+    background: $secondary;
+  }
+
+  &-success {
+    color: $white;
+    background: $info;
+  }
 }
 
 .close {
@@ -40,18 +60,5 @@ export default {
   right: 20px;
   font-weight: bold;
   cursor: pointer;
-}
-
-.alert-primary {
-  background: #2196f3;
-}
-.alert-secondary {
-  color: #4B0082;
-  border-left-color: #4B0082;
-  background: #FFFAF0;
-}
-
-.alert-success {
-  background: #4B0082;
 }
 </style>

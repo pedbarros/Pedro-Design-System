@@ -19,7 +19,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .button {
   appearance: none;
   border: none;
@@ -29,30 +29,30 @@ export default {
 }
 
 .button-color--normal {
-  background-color: #eee;
-  color: #222;
+  background-color: $secondary;
+  color: $info;
 }
 
 .button-color--normal:hover,
 .button-color--normal:focus {
-  background-color: #e0e0e0;
+  background-color: $secondary;
 }
 
 .button-color--normal:active {
-  background-color: #bdbdbd;
+  background-color: $secondary;
 }
 
 .button-color--primary {
-  background-color: #2196f3;
+  background-color: $primary;
   color: #fff;
 }
 
 .button-color--primary:hover,
 .button-color--primary:focus {
-  background-color: #1e88e5;
+  background-color: $primary;
 }
 
 .button-color--primary:active {
-  background-color: #1976d2;
+  background-color: $primary;
 }
 </style>
