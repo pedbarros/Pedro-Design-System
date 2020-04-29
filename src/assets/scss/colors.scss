@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 $primary: #C54864;
 $secondary: #E4DCC8;
 $success: #C3B9A2;
 $info: #972137;
 $white: #fff;
+$gray: #9b9b9b;
+
+* {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}

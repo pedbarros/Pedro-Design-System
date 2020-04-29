@@ -23,7 +23,7 @@ export default {
 .button {
   appearance: none;
   border: none;
-  font-family: sans-serif;
+  // font-family: sans-serif;
   padding: 8px 16px;
   border-radius: 2px;
 }
