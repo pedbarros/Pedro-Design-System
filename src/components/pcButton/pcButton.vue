@@ -13,7 +13,7 @@ export default {
   props: {
     color: {
       type: String,
-      default: 'normal', // 'normal' or 'primary'
+      default: 'normal',
     },
   },
 };
@@ -23,7 +23,6 @@ export default {
 .button {
   appearance: none;
   border: none;
-  // font-family: sans-serif;
   padding: 8px 16px;
   border-radius: 2px;
 }
