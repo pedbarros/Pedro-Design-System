@@ -3,7 +3,7 @@ import { create } from '@storybook/theming/create';
 export default create({
   base: 'dark',
   
-  colorPrimary: '#C54864',
+  colorPrimary: '#4258C3',
 
   // UI
   appBg: '#272324',
@@ -15,7 +15,7 @@ export default create({
   // Toolbar default and active colors
   barTextColor: '#FFFFFF',
   barSelectedColor: '#FFFFFF',
-  barBg: '#C54864',
+  barBg: '#4258C3',
 
   brandTitle: 'Pedro – Design System'
 });

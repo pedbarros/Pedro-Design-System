@@ -1,4 +1,6 @@
-# Pedro Design System (Beta)
+# Pedro Design System
+
+This design system does not use any libraries. All styles were created from scratch.
 
 Documentation for **Pedro** - Design System. Is included:
 
