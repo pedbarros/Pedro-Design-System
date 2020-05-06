@@ -2,6 +2,7 @@
 
 Documentation for **Pedro** - Design System. Is included:
 
+- [NPM](#npm)
 - [Setup](#setup)
 - [Install Lib](#installlib)
 - [Run](#run)
@@ -14,6 +15,10 @@ Documentation for **Pedro** - Design System. Is included:
 - Production: (https://ds.pedbarros.com.br/)
 - Staging: (https://pedrodsbeta.netlify.app/)
 
+
+## [NPM](#npm)
+
+(https://www.npmjs.com/package/pcds)
 
 ## [Setup](#setup)
 
