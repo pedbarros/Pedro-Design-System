@@ -32,8 +32,3 @@ Add this code to your dependencies: `npm i pcds`
 
 ## [Run](#run)
 `npm run storybook` or `yarn storybook`
-
-## [Create a Component](#create-a-component)
-
-1. Run into bash `npm run generate` or `yarn generate` and type component name
-2. After create your component, run `npm run lint` or `yarn lint`
