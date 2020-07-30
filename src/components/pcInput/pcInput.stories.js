@@ -9,8 +9,8 @@ storiesOf('Components|pcInput', module)
     components: { pcInput },
     data() {
       return {
-        text: 'ok'
+        value: ''
       }
     },
-    template: `<pcInput :value="text" />`,
+    template: `<pcInput label="First Name" :value="value" />`,
   }));

@@ -8,7 +8,7 @@
     <label
       for="name"
       class="form__label"
-    >Name</label>
+    >{{$attrs.label}}</label>
   </div>
 </template>
 

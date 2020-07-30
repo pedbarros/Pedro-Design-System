@@ -1,23 +1,20 @@
 <template>
-  <p>
+  <span>
     <input
-      id="checkbox-component"
       type="checkbox"
+      :id="id"
+      :value="value"
       name="checkbox-group"
+      @change="$emit('input', $event.target.value)"
     >
-    <label for="checkbox-component">{{text}}</label>
-  </p>
+    <label :for="id">{{text}}</label>
+  </span>
 </template>
 
 <script>
 export default {
-  name: 'pccheckbox',
-  props: {
-    text: {
-      type: String,
-      default: '',
-    },
-  },
+  name: 'pcCheckbox',
+  props: ['id', 'value', 'text']
 };
 </script>
 
@@ -45,7 +42,6 @@ export default {
   width: 18px;
   height: 18px;
   border: 1px solid $secondary;
-  border-radius: 100%;
   background: $white;
 }
 [type="checkbox"]:checked + label:after,
@@ -57,7 +53,6 @@ export default {
   position: absolute;
   top: 4px;
   left: 4px;
-  border-radius: 100%;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
